@@ -1,0 +1,149 @@
+Level 0 – Engineering Setup
+
+
+
+Chapter 0.1 – What is Programming?
+
+Welcome to Pythonite.
+
+Our goal isn't just to learn Python syntax. Our goal is to become someone who can design, build, and engineer software.
+
+Think of this as an engineering degree focused on Python.
+
+Learning Outcomes
+
+After this chapter, you should be able to answer:
+
+What is programming?
+What is a program?
+What is code?
+Why do programming languages exist?
+Why is Python one of the most popular languages?
+Imagine This...
+
+Suppose I tell you:
+
+"Make me a cup of tea."
+
+A human understands immediately.
+
+A computer doesn't.
+
+A computer only understands electrical signals represented as 0s and 1s (binary).
+
+Programming is the process of translating human intentions into precise instructions that a computer can execute.
+
+Definition
+
+Programming is the process of writing a sequence of instructions that tells a computer exactly what to do.
+
+These instructions are called code.
+
+Example:
+
+print("Hello, World!")
+
+This tells Python:
+
+Find the print function.
+Display the text "Hello, World!" on the screen.
+What is a Program?
+
+A program is a collection of instructions that performs a task.
+
+Examples:
+
+Calculator
+Chrome
+Spotify
+VS Code
+Instagram
+WhatsApp
+Games
+
+Every one of these started as source code.
+
+What is Code?
+
+Code is simply the written instructions for a computer.
+
+Just as English uses words to communicate with people, programming languages use keywords and syntax to communicate with computers.
+
+Why Can't We Write Only in Binary?
+
+Imagine writing this:
+
+010100110101101001011010...
+
+Instead of:
+
+print("Hello")
+
+Both ultimately represent instructions, but high-level languages like Python make programming far easier for humans.
+
+Why Do Programming Languages Exist?
+
+Programming languages bridge the gap between human thinking and machine execution.
+
+They let us express ideas clearly while tools translate them into machine code.
+
+Why Python?
+
+Python is known for its readability and versatility. It's widely used in:
+
+Artificial Intelligence
+Machine Learning
+Web Development
+Automation
+Data Science
+Cybersecurity
+Scientific Computing
+Game Development
+Robotics
+
+One language opens many career paths.
+
+Engineering Insight
+
+A computer doesn't "understand" your code.
+
+It follows instructions exactly.
+
+If you write:
+
+print("Python")
+
+The computer isn't reading English—it is executing a series of operations generated from that instruction.
+
+This is why computers are incredibly fast but have no common sense.
+
+Real-World Analogy
+
+Imagine you're assembling furniture.
+
+The instruction manual tells you:
+
+Pick up screw A.
+Insert it into hole B.
+Tighten it.
+
+If you skip a step or swap two steps, the result may be wrong.
+
+Programming works the same way: computers execute instructions in the order you provide.
+
+Key Takeaways
+Programming is giving instructions to a computer.
+Code is the written form of those instructions.
+A program is a collection of instructions that solves a problem.
+Computers ultimately execute machine-level instructions, not Python directly.
+Python is a high-level language designed to be readable and productive.
+Pythonite Challenge 🧠
+
+Without looking back, answer these questions in your own words:
+
+What is programming?
+What is a program?
+What is code?
+Why can't humans conveniently program directly in binary?
+Why do programming languages exist?
+Why do you think Python became so popular?
