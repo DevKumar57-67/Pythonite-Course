@@ -148,3 +148,271 @@ What is code?
 Why can't humans conveniently program directly in binary?
 Why do programming languages exist?
 Why do you think Python became so popular?
+
+
+-----------------------------------------------------------------------
+
+
+🐍 Pythonite
+
+
+Level 0 – Engineering Setup
+
+
+Chapter 0.2 – What Actually Happens When You Click Run?
+
+This is one of the most important concepts in programming.
+
+Most beginners think:
+
+"I wrote Python code. I clicked Run. It worked."
+
+An engineer asks:
+
+"What happened inside the computer?"
+
+Today, we'll answer that question.
+
+Our Journey
+
+When you click Run in VS Code, your code goes through several stages:
+
+You
+   │
+   ▼
+Python Code
+   │
+   ▼
+Python Interpreter
+   │
+   ▼
+Operating System
+   │
+   ▼
+CPU
+   │
+   ▼
+Memory (RAM)
+   │
+   ▼
+Output on Screen
+
+Let's understand each part.
+
+Step 1 — You Write Code
+
+Example:
+
+print("Hello, Dev!")
+
+This is called source code.
+
+It's written for humans to read.
+
+The CPU cannot understand this directly.
+
+Step 2 — VS Code Does NOT Run Your Code
+
+Many people think VS Code executes Python.
+
+It doesn't.
+
+VS Code is just a code editor.
+
+Think of it like Microsoft Word.
+
+It helps you:
+
+write code
+edit code
+organize projects
+
+But it does not execute Python code by itself.
+
+Step 3 — VS Code Calls the Python Interpreter
+
+When you press:
+
+▶ Run
+
+VS Code actually runs something similar to:
+
+python main.py
+
+Now the real work begins.
+
+What is the Python Interpreter?
+
+The Python interpreter is a software program whose job is to:
+
+read Python code
+understand it
+execute it
+
+Imagine a translator.
+
+You speak English.
+
+The CPU only understands machine instructions.
+
+The interpreter translates your Python program into operations the computer can execute.
+
+Step 4 — The Interpreter Reads Your Code
+
+Suppose you wrote:
+
+print("Hello")
+
+The interpreter reads:
+
+print
+
+It recognizes:
+
+"This is the built-in function that displays text."
+
+Then it reads:
+
+"Hello"
+
+It prepares that text for output.
+
+Step 5 — Memory (RAM)
+
+Everything your program needs is stored temporarily in RAM.
+
+Example:
+
+name = "Dev"
+
+RAM now contains:
+
+name
+↓
+
+"Dev"
+
+Variables live in memory while the program runs.
+
+Step 6 — CPU Executes Instructions
+
+The CPU is the computer's processor.
+
+It performs operations like:
+
+calculations
+comparisons
+moving data
+displaying output
+
+The CPU never reads Python directly.
+
+It executes lower-level instructions generated as the interpreter processes your code.
+
+Step 7 — The Operating System Helps
+
+The operating system (Windows, Linux, macOS) acts as the manager between your program and the hardware.
+
+When your program wants to:
+
+print text
+open a file
+use the internet
+allocate memory
+
+it requests these services through the operating system.
+
+Step 8 — Output Appears
+
+Finally,
+
+print("Hello")
+
+becomes
+
+Hello
+
+displayed on your screen.
+
+Complete Flow
+
+
+You write code
+
+↓
+
+VS Code
+
+↓
+
+Python Interpreter
+
+↓
+
+Operating System
+
+↓
+
+CPU + RAM
+
+↓
+
+Screen Output
+
+
+Real-Life Analogy
+
+Imagine a restaurant.
+
+You → Customer
+
+Python Code → Your food order
+
+Python Interpreter → Waiter
+
+Operating System → Restaurant manager
+
+CPU → Chef
+
+RAM → Kitchen workspace
+
+Output → Your meal
+
+The waiter (interpreter) translates your request into actions the chef can perform, while the manager coordinates resources.
+
+Engineering Insight
+
+The CPU doesn't know what print() means.
+
+It only knows simple machine-level operations.
+
+The Python interpreter bridges the gap between your human-readable code and the CPU's executable instructions.
+
+Common Beginner Misconceptions
+
+❌ "VS Code runs Python."
+
+✅ VS Code launches the Python interpreter.
+
+❌ "Python code goes directly into the CPU."
+
+✅ The interpreter processes Python code before the CPU executes the resulting operations.
+
+❌ "Variables are stored inside Python."
+
+✅ Variable values are stored in your computer's memory (RAM) while the program runs.
+
+Key TakeawaysR:
+
+VS Code is an editor, not the Python runtime.
+The Python interpreter executes Python programs.
+The operating system provides services like memory management and screen output.
+The CPU performs the actual computations.
+RAM temporarily stores your program's data.
+Every program follows a chain from source code to execution.
+Pythonite Challenge 🧠
+
+Explain this process in your own words:
+
+When you click the Run button in VS Code, what happens from that moment until "Hello, Dev!" appears on the screen?
+
