@@ -65,4 +65,19 @@ else:
 
 for i in range(5):
     print("This is a for loop", i)
+
+
+
+
     
+# Functions in Python
+# Functions are the blocks of code that are designed to perform a specific tasks 
+
+def add(x, y):
+    return x+y
+
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
+sum = add(x,y)
+print("The sum is", sum)
