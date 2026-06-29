@@ -672,3 +672,209 @@ Select the correct Python interpreter in VS Code.
 Run your first program from the terminal and the editor.
 
 From that point onward, you'll have a professional development setup ready for the rest of the Pythonite journey.
+
+Chapter 0.4 – Creating Your First Python Workspace
+
+Congratulations! 🎉
+
+From this chapter onward, we'll start working like real software engineers.
+
+🎯 Objective
+
+By the end of this chapter, you'll have:
+
+✅ A professional project folder
+✅ VS Code configured
+✅ A virtual environment
+✅ Your first Python program running
+Step 1 – Create a Workspace
+
+Don't save Python files randomly on your Desktop.
+
+Instead, create a dedicated folder.
+
+Example:
+
+Documents/
+│
+└── Pythonite/
+    │
+    └── HelloPython/
+
+Here:
+
+Pythonite = Your main workspace
+HelloPython = Your first project
+
+This is how professionals organize their work.
+
+Step 2 – Open the Project in VS Code
+
+Open VS Code.
+
+Go to:
+
+File → Open Folder
+
+Select:
+
+HelloPython
+
+Now VS Code treats this folder as your project.
+
+Step 3 – Create Your First Python File
+
+Inside the project, create:
+
+main.py
+
+Why main.py?
+
+It's a common convention for the main entry point of a program.
+
+Step 4 – Write Your First Program
+
+Type:
+
+print("Hello, Pythonite!")
+
+Save the file using Ctrl + S.
+
+Step 5 – Open the Terminal
+
+In VS Code:
+
+Terminal → New Terminal
+
+You should see something like:
+
+PS C:\Users\Dev\Documents\Pythonite\HelloPython>
+
+This means you're inside your project folder.
+
+Step 6 – Run the Program
+
+Type:
+
+python main.py
+
+or, on some systems:
+
+py main.py
+
+Output:
+
+Hello, Pythonite!
+
+🎉 Congratulations! You just executed your first Python program.
+
+Step 7 – Create a Virtual Environment
+
+A virtual environment keeps each project's packages separate.
+
+Run:
+
+python -m venv .venv
+
+A new folder appears:
+
+HelloPython/
+│
+├── .venv/
+├── main.py
+Step 8 – Activate the Virtual Environment
+
+On Windows Command Prompt:
+
+.venv\Scripts\activate
+
+On PowerShell:
+
+.venv\Scripts\Activate.ps1
+
+You'll see:
+
+(.venv)
+
+at the beginning of the terminal prompt.
+
+That means the virtual environment is active.
+
+Step 9 – Select the Python Interpreter
+
+In VS Code:
+
+Press Ctrl + Shift + P
+Search for:
+Python: Select Interpreter
+
+Choose the interpreter inside your .venv.
+
+Now your project is using its own isolated Python environment.
+
+Folder Structure
+
+Your project should now look like this:
+
+HelloPython/
+│
+├── .venv/
+├── main.py
+└── .gitignore   (later)
+
+As the course progresses, you'll add more files and folders.
+
+Why Use a Virtual Environment?
+
+Imagine:
+
+Project A needs Django 4
+Project B needs Django 5
+
+If both share the same global installation, conflicts can occur.
+
+A virtual environment gives each project its own isolated set of packages.
+
+Think of it as giving every project its own toolbox.
+
+Engineering Insight
+
+Professional developers don't just write code—they create reproducible environments.
+
+When someone else clones your project, they should be able to recreate the same environment and run it successfully.
+
+Common Beginner Mistakes
+
+❌ Saving Python files all over the computer.
+
+✅ Keep each project in its own folder.
+
+❌ Installing every package globally.
+
+✅ Use a virtual environment for each project.
+
+❌ Naming files with spaces.
+
+❌ my first program.py
+
+✅ main.py
+
+✅ calculator.py
+
+✅ student_manager.py
+
+Key Takeaways
+Every project should have its own folder.
+main.py is a common starting file.
+The integrated terminal lets you run commands from within VS Code.
+A virtual environment isolates project dependencies.
+Selecting the correct interpreter ensures VS Code uses the right Python installation.
+🧠 Pythonite Challenge
+
+Do these tasks on your computer:
+
+Create a folder named Pythonite.
+Inside it, create a project named HelloPython.
+Create main.py.
+Write:
+print("Hello, Pythonite!")
