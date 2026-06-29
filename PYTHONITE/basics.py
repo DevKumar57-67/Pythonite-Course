@@ -55,3 +55,14 @@ if (age >= 18):
 else:
     print("You are not eligible to vote")
 
+#Loops in Python 
+#Loops are used to execute a block of code repeatedly until a cerain condition is met.
+#Loops are of two types: 
+#1. For Loop
+#2. While Loop
+
+# A basic loop syntax
+
+for i in range(5):
+    print("This is a for loop", i)
+    
