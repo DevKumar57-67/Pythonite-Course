@@ -53,11 +53,15 @@ print(numbers)
 # Useful Functions
 
 arr = list(map(int, input("Enter numbers of the array: ").split()))
-print("The array is :", arr)
-print("The length of the array is :", len(arr))
-print("The maximum value is :", max(arr))
-print("The minimum value is :", min(arr))
-print("The sum of the array is :", sum(arr))
+
+if arr:
+    print("The array is :", arr)
+    print("The length of the array is :", len(arr))
+    print("The maximum value is :", max(arr))
+    print("The minimum value is :", min(arr))
+    print("The sum of the array is :", sum(arr))
+else:
+    print("The array is empty ")
 
 
-#Problems on Arrays 
+
