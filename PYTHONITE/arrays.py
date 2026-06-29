@@ -45,3 +45,19 @@ for num in numbers:
 
 
 
+#We can  use the append() function to add elements to the end of the list 
+
+numbers.append(6)
+print(numbers)
+
+# Useful Functions
+
+arr = list(map(int, input("Enter numbers of the array: ").split()))
+print("The array is :", arr)
+print("The length of the array is :", len(arr))
+print("The maximum value is :", max(arr))
+print("The minimum value is :", min(arr))
+print("The sum of the array is :", sum(arr))
+
+
+#Problems on Arrays 
